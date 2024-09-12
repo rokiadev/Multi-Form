@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Login Form</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="body">
+    <div class="container">
+        
+        
+        
+        <form id="form1">
+            <h3>CREATE ACCOUNT</h3>
+            <input type="text" placeholder="email" required>
+            <input type="password" placeholder="password" required>
+            <input type="password" placeholder="confirm password" required>
+            <div class="btn-box">
+                <button type="button" id="next1">Next</button>
+            </div>
+        </form>
+        
+        
+        <form id="form2">
+            <h3>SOCIAL LINKS</h3>
+            <input type="text" placeholder="Medium">
+            <input type="text" placeholder="GitHub">
+            <input type="text" placeholder="LinkedIn">
+            <div class="btn-box">
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next</button>
+            </div>
+        </form>
+        
+        
+        
+        <form id="form3">
+            <h3>PERSONAL INFO</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="number" placeholder="Mobile Ne" required>
+            <div class="btn-box">
+                <button type="button" id="back2">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        
+        
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Step 1</small></div>
+            <div class="step-col"><small>Step 2</small></div>
+            <div class="step-col"><small>Step 3</small></div>
+        </div>
+        
+    </div>
+    
+    <script src="src/script.js"></script>
+</body>
+</html>
